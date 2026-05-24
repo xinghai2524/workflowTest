@@ -4,7 +4,7 @@ on: [push]
 jobs:
   job1:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: 查看路径
         run: pwd
       - name: 查看文件
